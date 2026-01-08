@@ -10,7 +10,8 @@ import (
 )
 
 func main() {
-	p, err := filepath.Abs(filepath.Join("run", "docker", "plugins"))
+	p, err := filepath.Abs(filepath.Join("run", "docker2", "plugins2"))
+	
 	if err != nil {
 		panic(err)
 	}
