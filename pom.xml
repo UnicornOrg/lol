@@ -16,7 +16,6 @@
     </properties>
 
     <dependencies>
-        <!-- Updated to fix CVE-2015-4852 -->
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
