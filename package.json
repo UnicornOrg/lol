@@ -25,6 +25,18 @@
   "comments": {
     "//": "a9 insecure components"
   },
+  "overrides": {
+    "glob-parent": "5.1.2",
+    "micromatch": {
+      "glob-parent": "5.1.2"
+    },
+    "parse-glob": {
+      "glob-parent": "5.1.2"
+    },
+    "glob-base": {
+      "glob-parent": "5.1.2"
+    }
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "cross-env PORT=5000 nodemon",
