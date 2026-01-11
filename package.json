@@ -60,6 +60,9 @@
     "should": "^8.3.1",
     "zaproxy": "^0.2.0"
   },
+  "overrides": {
+    "sshpk": "1.18.0"
+  },
   "repository": "https://github.com/OWASP/NodejsGoat",
   "license": "Apache 2.0"
 }
